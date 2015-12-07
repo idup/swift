@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[马上开始iOS应用开发之旅]]></title>
+  <subtitle><![CDATA[用Swift语言写FoodTracker]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://start-developing-ios-apps.idup.club/"/>
+  <updated>2015-12-04T04:19:33.000Z</updated>
+  <id>http://start-developing-ios-apps.idup.club/</id>
+  
+  <author>
+    <name><![CDATA[iDUP Club]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[十. 持久化数据]]></title>
+    <link href="http://start-developing-ios-apps.idup.club/2015/12/04/10-Persist-data/"/>
+    <id>http://start-developing-ios-apps.idup.club/2015/12/04/10-Persist-data/</id>
+    <published>2015-12-04T04:00:00.000Z</published>
+    <updated>2015-12-04T04:19:33.000Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[九. 实现编辑和删除操作]]></title>
+    <link href="http://start-developing-ios-apps.idup.club/2015/12/04/9-Implement-edit-and-delete-behavior/"/>
+    <id>http://start-developing-ios-apps.idup.club/2015/12/04/9-Implement-edit-and-delete-behavior/</id>
+    <published>2015-12-04T03:59:42.000Z</published>
+    <updated>2015-12-04T04:19:38.000Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[八. 实现导航]]></title>
+    <link href="http://start-developing-ios-apps.idup.club/2015/12/04/8-Implement-navigation/"/>
+    <id>http://start-developing-ios-apps.idup.club/2015/12/04/8-Implement-navigation/</id>
+    <published>2015-12-04T03:59:23.000Z</published>
+    <updated>2015-12-04T04:08:45.000Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[七. 创建表视图]]></title>
+    <link href="http://start-developing-ios-apps.idup.club/2015/12/04/7-Create-a-table-view/"/>
+    <id>http://start-developing-ios-apps.idup.club/2015/12/04/7-Create-a-table-view/</id>
+    <published>2015-12-04T03:59:11.000Z</published>
+    <updated>2015-12-04T04:08:49.000Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[六. 定义数据模型]]></title>
+    <link href="http://start-developing-ios-apps.idup.club/2015/12/04/6-Define-your-data-model/"/>
+    <id>http://start-developing-ios-apps.idup.club/2015/12/04/6-Define-your-data-model/</id>
+    <published>2015-12-04T03:58:51.000Z</published>
+    <updated>2015-12-04T04:08:54.000Z</updated>
+    <content type="html"></content>
+    <summary type="html">
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[五. 实现自定义控件]]></title>
+    <link href="http://start-developing-ios-apps.idup.club/2015/12/04/5-Implement-a-custom-control/"/>
+    <id>http://start-developing-ios-apps.idup.club/2015/12/04/5-Implement-a-custom-control/</id>
+    <published>2015-12-04T03:58:40.000Z</published>
+    <updated>2015-12-07T12:54:34.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="创建自定义视图">创建自定义视图</h3><p>点击File &gt; New &gt; File ，选择ios下的source选项，选择Cocoa Touch Class，点击next，Class设置为RatingControl，“Subclass of”选择UIView,Language选择Swift</p>
+<p><img src="/images/5-1.png" alt=""></p>
+<p>在RatingControl.swift代码区的class里添加代码</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">required</span> <span class="keyword">init</span>?(coder aDecoder: <span class="type">NSCoder</span>) &#123;</span><br><span class="line">    <span class="keyword">super</span>.<span class="keyword">init</span>(coder: aDecoder)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="显示自定义视图">显示自定义视图</h3><p>从Object library中拖拽一个View,将其放置在image view下面，打开它的Size inspector，Intrinsic Size标签设置为Placeholder，宽和高分别设置为44和240,打开它的 Identity inspector，class标签选择RatingControl.</p>
+<h3 id="向视图添加button按钮">向视图添加button按钮</h3>]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="创建自定义视图">创建自定义视图</h3><p>点击File &gt; New &gt; File ，选择ios下的source选项，选择Cocoa Touch Class，点击next，Class设置为RatingControl，“Subclass of”选择U]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[四. 编写视图控制器]]></title>
+    <link href="http://start-developing-ios-apps.idup.club/2015/12/04/4-Work-with-view-controllers/"/>
+    <id>http://start-developing-ios-apps.idup.club/2015/12/04/4-Work-with-view-controllers/</id>
+    <published>2015-12-04T03:58:26.000Z</published>
+    <updated>2015-12-07T12:45:34.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="增加一张Meal图片">增加一张Meal图片</h3><p>从Object library中拖拽一个 image view放入stack view中的button下面。</p>
+<p><img src="/images/4-1.png" alt=""></p>
+<p>在工具栏中选择 Size inspector菜单，将Intrinsic Size标签设置为Placeholder，并将宽度和高度设置为320</p>
+<p><img src="/images/4-2.png" alt=""></p>
+<p>给图片增加约束条件，Pin菜单中勾选 Aspect Ratio.</p>
+<p><img src="/images/4-3.png" alt=""></p>
+<p> 在工具栏的Attributes inspector菜单下找到Interaction标签，勾选User Interaction Enabled。</p>
+<h3 id="展示默认图片">展示默认图片</h3><p>在project navigator中选择Assets.xcassets。在左底角点击+符号，把图片拖入image set中的2*槽中，Attributes inspector中选择image，在列表中选择刚才添加的图片defaultPhoto。运行模拟器。</p>
+<p><img src="/images/4-4.png" alt=""></p>
+<h3 id="连接代码与图片">连接代码与图片</h3><p>拖拽image view到ViewController.swift代码区，name为photoImageView</p>
+<p><img src="/images/4-5.png" alt=""></p>
+<h3 id="创建手势识别">创建手势识别</h3><p>从Object Library中拖拽一个Object Library，将其放在image view上添加一个点击手势识别。</p>
+<p><img src="/images/4-6.png" alt=""></p>
+<p><img src="/images/4-7.png" alt=""></p>
+<h3 id="将手势识别连接到代码区">将手势识别连接到代码区</h3><p>拖拽 gesture recognizer到ViewController.swift代码区，name设置为selectImageFromPhotoLibrary，type设置为UITapGestureRecognizer</p>
+<p><img src="/images/4-8.png" alt=""></p>
+<p><img src="/images/4-9.png" alt=""></p>
+<h3 id="创建图像选择器来响应用户点击">创建图像选择器来响应用户点击</h3><p>在ViewController.swift代码区中修改相应代码<br><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ViewController</span>: <span class="typename">UIViewController</span>, <span class="typename">UITextFieldDelegate</span>, <span class="typename">UIImagePickerControllerDelegate</span>, <span class="typename">UINavigationControllerDelegate &#123;</span></span></span><br></pre></td></tr></table></figure></p>
+<p>修改 selectImageFromPhotoLibrary(_:)方法</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor">@IBAction</span> <span class="func"><span class="keyword">func</span> <span class="title">selectImageFromPhotoLibrary</span><span class="params">(sender: UITapGestureRecognizer)</span></span> &#123;</span><br><span class="line">    <span class="comment">// Hide the keyboard.</span></span><br><span class="line">    nameTextField.resignFirstResponder()</span><br><span class="line"></span><br><span class="line">    <span class="comment">// UIImagePickerController is a view controller that lets a user pick media from their photo library.</span></span><br><span class="line">    <span class="keyword">let</span> imagePickerController = <span class="type">UIImagePickerController</span>()</span><br><span class="line"></span><br><span class="line">    <span class="comment">// Only allow photos to be picked, not taken.</span></span><br><span class="line">    imagePickerController.sourceType = .<span class="type">PhotoLibrary</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// Make sure ViewController is notified when the user picks an image.</span></span><br><span class="line">    imagePickerController.delegate = <span class="keyword">self</span></span><br><span class="line"></span><br><span class="line">    presentViewController(imagePickerController, animated: <span class="literal">true</span>, completion: <span class="literal">nil</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>实现两个委托方法</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="func"><span class="keyword">func</span> <span class="title">imagePickerControllerDidCancel</span><span class="params">(picker: UIImagePickerController)</span></span></span><br><span class="line"><span class="func"><span class="keyword">func</span> <span class="title">imagePickerController</span><span class="params">(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject])</span></span></span><br></pre></td></tr></table></figure>
+<p>imagePickerControllerDidCancel(_:) 方法内容<br><figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="func"><span class="keyword">func</span> <span class="title">imagePickerControllerDidCancel</span><span class="params">(picker: UIImagePickerController)</span></span> &#123;</span><br><span class="line">    <span class="comment">// Dismiss the picker if the user canceled.</span></span><br><span class="line">    dismissViewControllerAnimated(<span class="literal">true</span>, completion: <span class="literal">nil</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>imagePickerController(_:didFinishPickingMediaWithInfo) 方法内容</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="func"><span class="keyword">func</span> <span class="title">imagePickerController</span><span class="params">(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject])</span></span> &#123;</span><br><span class="line">    <span class="comment">// The info dictionary contains multiple representations of the image, and this uses the original.</span></span><br><span class="line">    <span class="keyword">let</span> selectedImage = info[<span class="type">UIImagePickerControllerOriginalImage</span>] <span class="keyword">as</span>! <span class="type">UIImage</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// Set photoImageView to display the selected image.</span></span><br><span class="line">    photoImageView.image = selectedImage</span><br><span class="line"></span><br><span class="line">    <span class="comment">// Dismiss the picker.</span></span><br><span class="line">    dismissViewControllerAnimated(<span class="literal">true</span>, completion: <span class="literal">nil</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>运行模拟器</p>
+<p><img src="/images/4-10.png" alt=""></p>
+<p>从电脑中向模拟器中拖拽图片，图片就会被添加进模拟器中</p>
+<p><img src="/images/4-11.png" alt=""></p>
+<p><img src="/images/4-12.png" alt=""></p>
+<p>点击image view,选择向模拟器中添加的图片</p>
+<p><img src="/images/4-13.png" alt=""></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="增加一张Meal图片">增加一张Meal图片</h3><p>从Object library中拖拽一个 image view放入stack view中的button下面。</p>
+<p><img src="/images/4-1.png" alt=""></p>
+<]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[三. 连接界面与代码]]></title>
+    <link href="http://start-developing-ios-apps.idup.club/2015/12/04/3-Connect-the-UI-to-code/"/>
+    <id>http://start-developing-ios-apps.idup.club/2015/12/04/3-Connect-the-UI-to-code/</id>
+    <published>2015-12-04T03:18:57.000Z</published>
+    <updated>2015-12-07T12:40:08.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="为UI元素创建Outlets">为UI元素创建Outlets</h3><p>点击toolbar中的Assistant按钮，将assistant editor从Preview状态转换为Automatic状态。</p>
+<p><img src="/images/3-1.png" alt=""></p>
+<p>在代码区找到</p>
+<figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ViewController</span>: <span class="typename">UIViewController</span></span></span><br></pre></td></tr></table></figure>
+<p>在这行下添加标记,这个标记并没有什么用处，主要用来提供一些有用的文本信息</p>
+<figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// MARK: Properties</span></span><br></pre></td></tr></table></figure>
+<p>在storyboard中选择text field,按住control键将它拖拽到代码区刚才添加的标记下面一行</p>
+<p><img src="/images/3-2.png" alt=""></p>
+<p>在出现的对话框中输入nameTextField</p>
+<p><img src="/images/3-3.png" alt=""></p>
+<p>点击链接，在代码区出现如下代码</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor">@IBOutlet</span> <span class="keyword">weak</span> <span class="keyword">var</span> nameTextField: <span class="type">UITextField</span>!</span><br></pre></td></tr></table></figure>
+<p>以相同方式将label拖拽到代码区</p>
+<p><img src="/images/3-4.png" alt=""></p>
+<h3 id="定义执行操作">定义执行操作</h3><p>在 ViewController.swift代码区域中，在最后一个 } 前添加</p>
+<figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// MARK: Actions</span></span><br></pre></td></tr></table></figure>
+<p>将Set Default Label Text按钮拖拽至标记下面</p>
+<p><img src="/images/3-5.png" alt=""></p>
+<p>在方法中添加代码</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor">@IBAction</span> <span class="func"><span class="keyword">func</span> <span class="title">setDefaultLabelText</span><span class="params">(sender:</span><br><span class="line">   UIButton)</span></span> &#123;</span><br><span class="line">    mealNameLabel.text = <span class="string">"Default Text"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>标签值被修改</p>
+<p><img src="/images/3-6.png" alt=""></p>
+<h3 id="获取用户输入">获取用户输入</h3><p>采用UITextFieldDelegate协议，在UIViewController后添加UITextFieldDelegate</p>
+<figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ViewController</span>: <span class="typename">UIViewController</span>,</span><br><span class="line"><span class="typename">UITextFieldDelegate &#123;</span></span></span><br></pre></td></tr></table></figure>
+<p>设置ViewController作为nameTextField的委托, 对viewDidLoad()修改</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">override</span> <span class="func"><span class="keyword">func</span> <span class="title">viewDidLoad</span><span class="params">()</span></span> &#123;</span><br><span class="line">    <span class="keyword">super</span>.viewDidLoad()</span><br><span class="line">    <span class="comment">// Handle the text field’s user input through delegate callbacks.</span></span><br><span class="line">    nameTextField.delegate = <span class="keyword">self</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>实现UITextFieldDelegate协议方法textFieldShouldReturn(_:) 和 textFieldDidEndEditing(_:)</p>
+<figure class="highlight mel"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">func textFieldDidEndEditing(<span class="keyword">textField</span>: UITextField) &#123;</span><br><span class="line">    mealNameLabel.<span class="keyword">text</span> = <span class="keyword">textField</span>.<span class="keyword">text</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight mel"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">func textFieldDidEndEditing(<span class="keyword">textField</span>: UITextField) &#123;</span><br><span class="line">    mealNameLabel.<span class="keyword">text</span> = <span class="keyword">textField</span>.<span class="keyword">text</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>运行模拟器查看结果</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="为UI元素创建Outlets">为UI元素创建Outlets</h3><p>点击toolbar中的Assistant按钮，将assistant editor从Preview状态转换为Automatic状态。</p>
+<p><img src="/images/3-1]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[二. 创建基本用户界面]]></title>
+    <link href="http://start-developing-ios-apps.idup.club/2015/12/04/2-Build-a-basic-UI/"/>
+    <id>http://start-developing-ios-apps.idup.club/2015/12/04/2-Build-a-basic-UI/</id>
+    <published>2015-12-04T03:11:31.000Z</published>
+    <updated>2015-12-07T12:41:16.000Z</updated>
+    <content type="html"><![CDATA[<h3 id="打开Storyboard">打开Storyboard</h3><p><img src="/images/2-1.png" alt="打开Storyboard"></p>
+<h3 id="添加文本框（Text_Field）">添加文本框（Text Field）</h3><p>从Object library中拖拽一个文本框到Storyboard的 scene中,重新设置文本框大小。</p>
+<p><img src="/images/2-2.png" alt="添加文本框"></p>
+<h3 id="设置文本占位符">设置文本占位符</h3><p>打开工具框中的 Attributes inspector，找到Placeholder标签，在其中输入Enter meal name。</p>
+<p><img src="/images/2-3.png" alt="设置占位符"></p>
+<h3 id="设置文本框键盘">设置文本框键盘</h3><p>在Attributes inspector中找到Return Key标签，将其设置为Done,并在Auto-enable Return Key复选框上打上勾。</p>
+<h3 id="添加标签（Label）">添加标签（Label）</h3><p>从Object library中拖拽一个label到scene中，双击它，在其中输入Meal Name.</p>
+<p><img src="/images/2-4.png" alt="添加标签"></p>
+<h3 id="添加按钮（Button）">添加按钮（Button）</h3><p>从Object library中拖拽一个button到scene中，双击它，在其中输入Set Default Label Text.</p>
+<p><img src="/images/2-5.png" alt="添加按钮"></p>
+<h3 id="自动布局">自动布局</h3><p>在按住shift的情况下点击label,button,和textfield.点击canvas底部的Stack按钮</p>
+<p><img src="/images/2-6.png" alt="Stack"></p>
+<p>Xcode将会将所有UI元素包裹在一个stack view中</p>
+<p><img src="/images/2-7.png" alt="Stack"></p>
+<p>在canvas的右下角，打开Pin菜单，可以修改界面的布局位置</p>
+<p><img src="/images/2-8.png" alt="Pin"></p>
+<p>修改完成后</p>
+<p><img src="/images/2-9.png" alt="Pin"></p>
+<p>需要调整text field的大小，在scene中选择text field,打开Pin菜单，将右边的box中输入0.</p>
+<p><img src="/images/2-10.png" alt="Pin"></p>
+<p>在工具栏中选择Size inspector按钮,将标签Intrinsic Size的属性设置为Placeholder。</p>
+<p><img src="/images/2-11.png" alt="size"></p>
+<p>最终的结果</p>
+<p><img src="/images/2-12.png" alt="ui"></p>
+<p>运行模拟器</p>
+<p><img src="/images/2-13.png" alt="simulator"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="打开Storyboard">打开Storyboard</h3><p><img src="/images/2-1.png" alt="打开Storyboard"></p>
+<h3 id="添加文本框（Text_Field）">添加文本框（Text Field）</h]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[一. 创建工程]]></title>
+    <link href="http://start-developing-ios-apps.idup.club/2015/12/04/1-Jump-Right-in/"/>
+    <id>http://start-developing-ios-apps.idup.club/2015/12/04/1-Jump-Right-in/</id>
+    <published>2015-12-03T16:19:45.000Z</published>
+    <updated>2015-12-05T06:50:44.000Z</updated>
+    <content type="html"><![CDATA[<p>开始开发iOS应用（Start Developing iOS Apps）是学习iPhone和iPad应用开发的起点。</p>
+<h3 id="关于本课程">关于本课程</h3><p>通过本课程，你将开发一个简单的饮食追踪应用FoodTracker。</p>
+<p><img src="/images/1-1.png" alt="FoodTracker App"></p>
+<h3 id="获取工具">获取工具</h3><p>用当前最新的技术进行iOS应用开发首先需要相应的软硬件设备，包括一台Mac电脑（安装OS X 10.10或更新版本的操作系统）和最新版本的Xcode。Xcode可免费从App Store下载。</p>
+<h3 id="创建工程">创建工程</h3><p><img src="/images/1-2.png" alt="新建工程"></p>
+<p><img src="/images/1-3.png" alt="选择工程类型"></p>
+<p><img src="/images/1-4.png" alt="输入工程参数"></p>
+<p><img src="/images/1-5.png" alt="创建成功"></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>开始开发iOS应用（Start Developing iOS Apps）是学习iPhone和iPad应用开发的起点。</p>
+<h3 id="关于本课程">关于本课程</h3><p>通过本课程，你将开发一个简单的饮食追踪应用FoodTracker。</p>
+<p><img ]]>
+    </summary>
+    
+  </entry>
+  
+</feed>
