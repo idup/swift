@@ -8,10 +8,14 @@ ios-app 网站由[hexo](http://hexo.io) 生成，请使用`npm install hexo-cli 
 
 `git clone https://github.com/idup/ios-app`
 
+## 安装ios-app hexo工程依赖包
+
+`cd ios-app`
+`npm install`
 
 ## 添加、修改内容
 
-使用`hexo new \"article title\" 创建新文章或编辑source\_posts\目录下已有md文件修改既有文章内容
+使用`hexo new "article title"` 创建新文章或编辑source\\\_posts\目录下已有md文件修改既有文章内容
 
 ## 发布内容
 
