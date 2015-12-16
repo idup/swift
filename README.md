@@ -11,6 +11,7 @@ ios-app 网站由[hexo](http://hexo.io) 生成，请使用`npm install hexo-cli 
 ## 安装ios-app hexo工程依赖包
 
 `cd ios-app`
+
 `npm install`
 
 ## 添加、修改内容
@@ -23,4 +24,4 @@ ios-app 网站由[hexo](http://hexo.io) 生成，请使用`npm install hexo-cli 
 
 ## 提交更新内容
 
-按git流程提交对ios-app的hexo内容所做修改（`git add .` -> `git commit -a` -> `git push origin master`），在此之前，当然你需要授权，请联系 [admin@idup.club](admin@idup.club)。
+按git流程提交对ios-app的hexo内容所做修改（`git add .` -> `git commit -a` -> `git push origin master`），在此之前，当然你需要授权，请联系 [admin@idup.club](mailto:admin@idup.club)。
