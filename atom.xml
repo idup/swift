@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[iOS应用开发]]></title>
-  <subtitle><![CDATA[用Swift语言写FoodTracker]]></subtitle>
+  <title><![CDATA[Swift语言基础]]></title>
+  <subtitle><![CDATA[学在开始iOS应用开发之前]]></subtitle>
   <link href="/atom.xml" rel="self"/>
-  <link href="http://ios-app.idup.club/"/>
+  <link href="http://swift.idup.club/"/>
   <updated>2015-12-08T10:48:12.000Z</updated>
-  <id>http://ios-app.idup.club/</id>
+  <id>http://swift.idup.club/</id>
   
   <author>
     <name><![CDATA[iDUP Club]]></name>
@@ -16,8 +16,8 @@
   
   <entry>
     <title><![CDATA[十. 持久化数据]]></title>
-    <link href="http://ios-app.idup.club/2015/12/04/10-Persist-data/"/>
-    <id>http://ios-app.idup.club/2015/12/04/10-Persist-data/</id>
+    <link href="http://swift.idup.club/2015/12/04/10-Persist-data/"/>
+    <id>http://swift.idup.club/2015/12/04/10-Persist-data/</id>
     <published>2015-12-04T04:00:00.000Z</published>
     <updated>2015-12-08T10:48:12.000Z</updated>
     <content type="html"><![CDATA[<h3 id="保存并加载Meal">保存并加载Meal</h3><h5 id="实现代码键结构">实现代码键结构</h5><p>打开 Meal.swift，在// MARK: Properties下面增加如下结构<br><figure class="highlight swift"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// MARK: Types</span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">PropertyKey</span> </span>&#123;</span><br><span class="line">  <span class="keyword">static</span> <span class="keyword">let</span> nameKey = <span class="string">"name"</span></span><br><span class="line">   <span class="keyword">static</span> <span class="keyword">let</span> photoKey = <span class="string">"photo"</span></span><br><span class="line">   <span class="keyword">static</span> <span class="keyword">let</span> ratingKey = <span class="string">"rating"</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
@@ -42,8 +42,8 @@
   
   <entry>
     <title><![CDATA[九. 实现编辑和删除操作]]></title>
-    <link href="http://ios-app.idup.club/2015/12/04/9-Implement-edit-and-delete-behavior/"/>
-    <id>http://ios-app.idup.club/2015/12/04/9-Implement-edit-and-delete-behavior/</id>
+    <link href="http://swift.idup.club/2015/12/04/9-Implement-edit-and-delete-behavior/"/>
+    <id>http://swift.idup.club/2015/12/04/9-Implement-edit-and-delete-behavior/</id>
     <published>2015-12-04T03:59:42.000Z</published>
     <updated>2015-12-08T14:57:05.000Z</updated>
     <content type="html"><![CDATA[<h3 id="允许编辑已经存在的Meals">允许编辑已经存在的Meals</h3><h5 id="配置table_view单元">配置table view单元</h5><p>打开Main.storyboard，选择table view cell，按住control并把它拖到meal scene中，在出现的Selection Segue中选择show选项</p>
@@ -75,8 +75,8 @@
   
   <entry>
     <title><![CDATA[八. 实现导航]]></title>
-    <link href="http://ios-app.idup.club/2015/12/04/8-Implement-navigation/"/>
-    <id>http://ios-app.idup.club/2015/12/04/8-Implement-navigation/</id>
+    <link href="http://swift.idup.club/2015/12/04/8-Implement-navigation/"/>
+    <id>http://swift.idup.club/2015/12/04/8-Implement-navigation/</id>
     <published>2015-12-04T03:59:23.000Z</published>
     <updated>2015-12-08T14:57:31.000Z</updated>
     <content type="html"><![CDATA[<h3 id="添加一个向前导航">添加一个向前导航</h3><p>现在需要添加meal list到meal scene的导航</p>
@@ -139,8 +139,8 @@
   
   <entry>
     <title><![CDATA[七. 创建表视图]]></title>
-    <link href="http://ios-app.idup.club/2015/12/04/7-Create-a-table-view/"/>
-    <id>http://ios-app.idup.club/2015/12/04/7-Create-a-table-view/</id>
+    <link href="http://swift.idup.club/2015/12/04/7-Create-a-table-view/"/>
+    <id>http://swift.idup.club/2015/12/04/7-Create-a-table-view/</id>
     <published>2015-12-04T03:59:11.000Z</published>
     <updated>2015-12-08T14:58:45.000Z</updated>
     <content type="html"><![CDATA[<h3 id="创建开放视图">创建开放视图</h3><p>目前，FoodTracker app只有一个通过view controller管理的视图，还需要创建meals的列表，IOS内置了表视图类UITableView来展示这种项目滑动列表</p>
@@ -208,8 +208,8 @@
   
   <entry>
     <title><![CDATA[六. 定义数据模型]]></title>
-    <link href="http://ios-app.idup.club/2015/12/04/6-Define-your-data-model/"/>
-    <id>http://ios-app.idup.club/2015/12/04/6-Define-your-data-model/</id>
+    <link href="http://swift.idup.club/2015/12/04/6-Define-your-data-model/"/>
+    <id>http://swift.idup.club/2015/12/04/6-Define-your-data-model/</id>
     <published>2015-12-04T03:58:51.000Z</published>
     <updated>2015-12-08T14:59:17.000Z</updated>
     <content type="html"><![CDATA[<h3 id="创建数据模型">创建数据模型</h3><p>现在需要创建一个数据模型去存储 meal scene呈现的信息</p>
@@ -237,8 +237,8 @@
   
   <entry>
     <title><![CDATA[五. 实现自定义控件]]></title>
-    <link href="http://ios-app.idup.club/2015/12/04/5-Implement-a-custom-control/"/>
-    <id>http://ios-app.idup.club/2015/12/04/5-Implement-a-custom-control/</id>
+    <link href="http://swift.idup.club/2015/12/04/5-Implement-a-custom-control/"/>
+    <id>http://swift.idup.club/2015/12/04/5-Implement-a-custom-control/</id>
     <published>2015-12-04T03:58:40.000Z</published>
     <updated>2015-12-08T14:59:40.000Z</updated>
     <content type="html"><![CDATA[<h3 id="创建自定义视图">创建自定义视图</h3><p>点击File &gt; New &gt; File ，选择ios下的source选项，选择Cocoa Touch Class，点击next，Class设置为RatingControl，“Subclass of”选择UIView,Language选择Swift</p>
@@ -297,8 +297,8 @@
   
   <entry>
     <title><![CDATA[四. 编写视图控制器]]></title>
-    <link href="http://ios-app.idup.club/2015/12/04/4-Work-with-view-controllers/"/>
-    <id>http://ios-app.idup.club/2015/12/04/4-Work-with-view-controllers/</id>
+    <link href="http://swift.idup.club/2015/12/04/4-Work-with-view-controllers/"/>
+    <id>http://swift.idup.club/2015/12/04/4-Work-with-view-controllers/</id>
     <published>2015-12-04T03:58:26.000Z</published>
     <updated>2015-12-07T12:45:34.000Z</updated>
     <content type="html"><![CDATA[<h3 id="增加一张Meal图片">增加一张Meal图片</h3><p>从Object library中拖拽一个 image view放入stack view中的button下面。</p>
@@ -344,8 +344,8 @@
   
   <entry>
     <title><![CDATA[三. 连接界面与代码]]></title>
-    <link href="http://ios-app.idup.club/2015/12/04/3-Connect-the-UI-to-code/"/>
-    <id>http://ios-app.idup.club/2015/12/04/3-Connect-the-UI-to-code/</id>
+    <link href="http://swift.idup.club/2015/12/04/3-Connect-the-UI-to-code/"/>
+    <id>http://swift.idup.club/2015/12/04/3-Connect-the-UI-to-code/</id>
     <published>2015-12-04T03:18:57.000Z</published>
     <updated>2015-12-07T12:40:08.000Z</updated>
     <content type="html"><![CDATA[<h3 id="为UI元素创建Outlets">为UI元素创建Outlets</h3><p>点击toolbar中的Assistant按钮，将assistant editor从Preview状态转换为Automatic状态。</p>
@@ -388,8 +388,8 @@
   
   <entry>
     <title><![CDATA[二. 创建基本用户界面]]></title>
-    <link href="http://ios-app.idup.club/2015/12/04/2-Build-a-basic-UI/"/>
-    <id>http://ios-app.idup.club/2015/12/04/2-Build-a-basic-UI/</id>
+    <link href="http://swift.idup.club/2015/12/04/2-Build-a-basic-UI/"/>
+    <id>http://swift.idup.club/2015/12/04/2-Build-a-basic-UI/</id>
     <published>2015-12-04T03:11:31.000Z</published>
     <updated>2015-12-07T12:41:16.000Z</updated>
     <content type="html"><![CDATA[<h3 id="打开Storyboard">打开Storyboard</h3><p><img src="/images/2-1.png" alt="打开Storyboard"></p>
@@ -428,8 +428,8 @@
   
   <entry>
     <title><![CDATA[一. 创建工程]]></title>
-    <link href="http://ios-app.idup.club/2015/12/04/1-Jump-Right-in/"/>
-    <id>http://ios-app.idup.club/2015/12/04/1-Jump-Right-in/</id>
+    <link href="http://swift.idup.club/2015/12/04/1-Jump-Right-in/"/>
+    <id>http://swift.idup.club/2015/12/04/1-Jump-Right-in/</id>
     <published>2015-12-03T16:19:45.000Z</published>
     <updated>2015-12-05T06:50:44.000Z</updated>
     <content type="html"><![CDATA[<p>开始开发iOS应用（Start Developing iOS Apps）是学习iPhone和iPad应用开发的起点。</p>
